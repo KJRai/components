@@ -1,0 +1,86 @@
+.navbar {
+  background: white;
+  position: relative;
+}
+
+.container {
+  min-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  font-weight: 500;
+}
+
+.logo {
+  height: 32px;
+  width: 40px;
+  margin-block: 24px;
+  margin-left: 40px;
+}
+.drop {
+  display: flex;
+  align-self: center;
+  height: 100%;
+  min-width: 124px;
+}
+
+.navLinks {
+  min-width: 653px;
+  height: 26px;
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  position: relative;
+}
+
+.navLinks li {
+  position: relative;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  min-width: 46px;
+}
+
+.dropdown {
+  position: absolute;
+  margin-left: 416px;
+  margin-right: -416px;
+  transform: translateX(-50%);
+  width: 1024px;
+  height: 334px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-inline: 60px;
+  row-gap: 72px;
+  gap: 32px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-bottom: 4px solid #ffd700;
+}
+
+.card {
+  width: 280px;
+  height: 81px;
+}
+
+.card h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.card p {
+  font-size: 12px;
+  color: #555;
+}
+
+.enquire {
+  background-color: #ffd700;
+  border: none;
+  padding: 10px 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}

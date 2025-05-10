@@ -1,0 +1,50 @@
+.tabContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 247px;
+}
+
+.tabList {
+  display: flex;
+  gap: 12px;
+  height: 41px;
+}
+
+.tabButton {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: #f8f8f8;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.active {
+  background-color: #1e2a57;
+  color: white;
+}
+
+.tabContentHeader {
+  display: flex;
+justify-content: center;
+  gap: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabHeader {
+  text-align: center;
+  padding-bottom: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  min-width: 77px;
+  color: #888;
+}
+
+.headerActive {
+  color: #1e2a57;
+  border-bottom: 2px solid #1e2a57;
+}

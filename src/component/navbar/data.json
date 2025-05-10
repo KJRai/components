@@ -1,0 +1,34 @@
+{
+  "destinations": [
+    {
+      "title": "Canada",
+      "description": "Explore Quality Education and Diverse Culture."
+    },
+    {
+      "title": "USA",
+      "description": "Explore Land of Dreams, Diversity, and Discovery."
+    },
+    {
+      "title": "UK",
+      "description": "Explore Timeless History, Modern Charm."
+    },
+    {
+      "title": "Australia",
+      "description": "Where Natural Wonders Meet Vibrant City Life."
+    },
+    {
+      "title": "New Zealand",
+      "description": "World-Class Education in a Stunning Natural Setting."
+    }
+  ],
+  "courses": [
+    {
+      "title": "Find a course",
+      "description": "Access 1000+ courses across diverse fields for a world-class education."
+    },
+    {
+      "title": "Find a university",
+      "description": "Partnered with 200+ top universities worldwide."
+    }
+  ]
+}
