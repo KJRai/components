@@ -49,7 +49,6 @@ export default function Navbar() {
           <Button
             onClick={undefined}
             label="Enquire Now"
-            children={undefined}
             type="button"
             variant="filled"
           />

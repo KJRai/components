@@ -3,6 +3,7 @@ import Button from "./component/button";
 import "./App.css";
 import Tabs from "./component/tab";
 import Navbar from "./component/navbar";
+import Searchbar from "./component/searchbar";
 const tabData = [
   { label: "All", value: "all" },
   { label: "General", value: "general" },
@@ -12,17 +13,13 @@ function App() {
   return (
     <>
       <section
-        style={{
-          display: "flex",
-          gap: "20px",
-        }}
+        className="flex gap-10"
       >
         <Button
           variant="filled"
           type="button"
           label="Enquire Now"
           onClick={undefined}
-          children={undefined}
         />
 
         <Button
@@ -30,7 +27,6 @@ function App() {
           type="button"
           label="Enquire Now"
           onClick={undefined}
-          children={undefined}
         />
       </section>
       <section
@@ -42,6 +38,9 @@ function App() {
       </section>
       <section>
         <Navbar />
+      </section>
+      <section>
+        <Searchbar />
       </section>
     </>
   );
